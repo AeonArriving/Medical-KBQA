@@ -1,6 +1,6 @@
 pyahocorasick==1.4.2
 requests==2.25.1
-gevent==1.4.0
+gevent==25.4.1
 jieba==0.42.1
 six==1.15.0
 gensim==3.8.3
@@ -22,3 +22,4 @@ flask_json==0.3.4
 GPUtil==1.4.0
 pyzmq==22.0.3
 scikit_learn==0.24.1
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
