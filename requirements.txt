@@ -22,3 +22,5 @@ flask_json==0.3.4
 GPUtil==1.4.0
 pyzmq==22.0.3
 scikit_learn==0.24.1
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
